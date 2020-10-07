@@ -1,7 +1,3 @@
-export const PageLimit: number = 25;
-export const errorText401 = 'Ошибка авторизации. Попробуйте перезагрузить страницу';
-export const errorText500 = 'Внутренняя ошибка сервера. Повторите попытку позже';
-
 export const getUniqueNumber = () => {
   return Math.floor(Math.random() * 100000000) + 1;
 };
